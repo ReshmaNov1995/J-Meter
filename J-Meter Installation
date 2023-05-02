@@ -1,0 +1,3 @@
+Link: https://jmeter.apache.org/download_jmeter.cgi
+Binary->Zip download
+Downloaded folder - Extract Zip file, Then move to bin folder. Double click on "JMeter.bat".
