@@ -1,0 +1,21 @@
+1) Test Plan - It will execute Series or Chain of step present in the Test Plan.
+
+2) Diff b/w stop & shutdown:
+Stop - It will pause the process & shuts down.
+Shutdown - It will execute the current process then shuts down.
+
+3) Thread Group- It is used to execute the multiple Threads.
+
+4) Files created in JMeter will saved in the extension of ".jmx".
+
+5) To create Thread Group-> Right click Test Plan->Add->Threads(Users)->Thread Group.
+   To Create HTTP Request-> Right Click Thread Group->Add->Sampler->HTTP Request.
+
+6) Under Test Plan - Create Thread Group & HTTP Request.
+In HTTP Request, 
+          Basic - Protocol is by default http. If it is https then enter "https" in the text.
+                  Then IP Address "62.171.183.83" & Port Number "9096".
+                  HTTP Request is "GET". Path is "".
+Then click on Start.
+Click on Warning symbol for the console view.
+Clear the console using Clear/Clear All icon.
