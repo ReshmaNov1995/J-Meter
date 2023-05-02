@@ -13,9 +13,23 @@ Shutdown - It will execute the current process then shuts down.
 
 6) Under Test Plan - Create Thread Group & HTTP Request.
 In HTTP Request, 
-          Basic - Protocol is by default http. If it is https then enter "https" in the text.
+          Basic - Protocol is by default http. If it is https then enter "https" in the textbox.
                   Then IP Address "62.171.183.83" & Port Number "9096".
-                  HTTP Request is "GET". Path is "".
+                  HTTP Request is "GET". Path is "QuaLISWeb/#/login".
 Then click on Start.
 Click on Warning symbol for the console view.
 Clear the console using Clear/Clear All icon.
+
+Results:
+      View Results Tree
+      View Results in Table
+      Response Time Group
+ To add Results->Right Click on HTTP Requests->Add->Listener-> View Results Tree/View Results in Table/Response Time Group.
+ In View Results Tree, Expand HTTP Request->Click on HTTP Request-1->Response code:200(Then only it is pass. If Response code is in 400 series then it is Fail).
+ In View Results in Table, Details displayed in Table form.
+ In Response Time Group, Click on Graph. U can see the Graph view.
+     
+Download Blazemeter to use Record & Playback feature in J-Meter.
+Chrome->Settings->extensions->Open Chrome webstore->search Blazemeter->Select Blazemeter->Add extension to chrome->Click on extension in chrome->Blazemeter->
+Record the required action->Login into it->After login click on extension & save as "JMeter(JMX)->.jmx file will be downloaded.
+Then goto J-Meter->File->Open->Open the file saved in Blazemeter. Here Under the Thread Group all the action link will be displayed. Add Results if requires.
