@@ -37,7 +37,7 @@ Then goto J-Meter->File->Open->Open the file saved in Blazemeter. Here Under the
 Passing data from CSV file to J-Meter:
 Create Excel file n change extension to CSV File.
 In J-Meter->Thread Group->Test->Add->Config Element->CSV Data set Config->Give File path.
-Note: In Sampler, Choose the Credentials Sampler-"${Password}"(Password-CSV File's Header). Same for UserName. ?
+Note: Expand the Test, choose the login credential http-> change the Username & password as, "${Password}"(Password-CSV File's Header). Same for UserName.
 Then choose the number of users in Thread Group & Start.
 
 
