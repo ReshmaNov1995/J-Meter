@@ -29,6 +29,7 @@ Results:
  In View Results in Table, Details displayed in Table form.
  In Response Time Group, Click on Graph. U can see the Graph view.
      
+Perform the required Actions in the Blazemeter. Then use the CSV file for MultiUser data.
 Download Blazemeter to use Record & Playback feature in J-Meter.
 Chrome->Settings->extensions->Open Chrome webstore->search Blazemeter->Select Blazemeter->Add extension to chrome->Click on extension in chrome->Blazemeter->
 Record the required action->Login into it->After login click on extension & save as "JMeter(JMX)->.jmx file will be downloaded.
@@ -37,7 +38,7 @@ Then goto J-Meter->File->Open->Open the file saved in Blazemeter. Here Under the
 Passing data from CSV file to J-Meter:
 Create Excel file n change extension to CSV File.
 In J-Meter->Thread Group->Test->Add->Config Element->CSV Data set Config->Give File path.
-Note: Expand the Test, choose the login credential http-> change the Username & password as, "${Password}"(Password-CSV File's Header). Same for UserName.
+Note: Expand the Test under Thread Group, select the login credential http-> change the Username & password as, "${Password}"(Password-CSV File's Header). Same for UserName.
 Then choose the number of users in Thread Group & Start.
 
 
